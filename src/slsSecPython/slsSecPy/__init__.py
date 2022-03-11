@@ -6,7 +6,7 @@ import json
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    ADMINPASSWORD = "VERYVERYSECRETPASSWORD"
+    ADMINPASSWORD = "AKIAIOSFODNN7EXAMPLX"
     logging.info('Python HTTP trigger function processed a request.')
     name = req.params.get('name')
     age = req.params.get('age')
